@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Test</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="parent__container">
+        <div class="header__container">
+            <div class="header__back__arrow">
+                <i class="fa fa-arrow-left"></i>
+            </div>
+            <!-- <div class="header__timer">
+                <span>Hrs  Min Sec</span>
+                <span>04:10:00</span>
+            </div> -->
+        </div>
+        <div class="card__container_parent">
+            <div class="card__container">
+                <div class="card__question">
+                    <div class="card__question__heading">
+                        Question 1/10
+                    </div>
+                    <div class="card__question__question">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.
+                    </div>
+                </div>
+                <div class="card__options">
+                    <ul>
+                        <li class="card__options_list" id="1" onClick="validate(1)">
+                            <span>A.</span>    
+                            <span>Aragonite and conchiolin</span>
+                        </li>
+                        <li class="card__options_list" id="2" onClick="validate(2)">
+                            <span>B.</span>    
+                            <span>Aragonite and conchiolin</span>
+                        </li>
+                        <li class="card__options_list" id="3" onClick="validate(3)">
+                            <span>C.</span>    
+                            <span>Aragonite and conchiolin</span>
+                        </li>
+                        <li class="card__options_list" id="4" onClick="validate(4)">
+                            <span>D.</span>    
+                            <span>Aragonite and conchiolin</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="card__question__next">
+                    <input class="card_question_button" type="button" value="NEXT" id="next" disabled/>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    
+</body>
+<script src="app.js"></script>
+</html>
